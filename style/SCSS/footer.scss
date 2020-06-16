@@ -1,0 +1,38 @@
+$bkgd-clr: #579c87;
+
+.footer
+{
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2em;
+	height: 60px;
+	width: 100%;
+	background-color: $bkgd-clr;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: solid #a1c181;
+	border-width: 1px 0px 0px 0px;
+}
+ 
+.mentions
+{
+	margin-left: 30px;
+}
+
+.contact
+{
+	margin-right: 30px;
+}
+
+.link
+{
+	text-decoration: none;
+	color: #fdcb46;
+}
+
+.link:hover
+{
+		text-decoration: underline;
+}

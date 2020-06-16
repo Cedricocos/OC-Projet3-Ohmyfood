@@ -1,0 +1,71 @@
+.menus 
+{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+
+}
+
+.menu1
+{
+	background-color: #fcdfdb;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu2
+{
+	background-color: #fff5fe;
+}
+
+.menu3
+{
+	background-color: #f9f9f9;
+}
+
+.menu4
+{
+	background-color: #fdfffd;
+}
+
+.menu-dim
+{
+	width: 350px;
+	height: 500px;
+	box-shadow: 0px 0px 15px lightgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-music
+{
+	font-size: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: linear-gradient(to bottom right, #f04a5e, #f78f6a);
+}
+
+.t-menu1
+{
+
+}
+
+.t-menu2
+{
+	
+}
+
+.t-menu3
+{
+	
+}
+
+.t-menu4
+{
+	
+}

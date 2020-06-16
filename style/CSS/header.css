@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: #579c87;
+  margin: 0;
+  border: solid #a1c181;
+  border-width: 0px 0px 1px 0px;
+}
+
+.logo {
+  width: 25%;
+}
+
+/*# sourceMappingURL=header.css.map */

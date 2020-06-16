@@ -1,0 +1,18 @@
+$bkgd-clr: #579c87;
+
+.header
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	background-color: $bkgd-clr;
+	margin: 0;
+	border: solid #a1c181;
+	border-width: 0px 0px 1px 0px;
+}
+
+.logo
+{
+	width: 25%;
+}
