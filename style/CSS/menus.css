@@ -10,33 +10,39 @@
 
 .menu1 {
   background-color: #fcdfdb;
-  display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 150px;
+  margin-left: 80px;
 }
 
 .menu2 {
   background-color: #fff5fe;
+  margin-bottom: 150px;
+  margin-right: 80px;
 }
 
 .menu3 {
   background-color: #f9f9f9;
+  margin-left: 80px;
 }
 
 .menu4 {
   background-color: #fdfffd;
+  margin-right: 80px;
 }
 
 .menu-dim {
-  width: 350px;
-  height: 500px;
+  width: 600px;
+  height: 800px;
   box-shadow: 0px 0px 15px lightgrey;
 }
 
 .fa-music {
-  font-size: 50px;
+  font-size: 6em;
   margin-left: 40px;
   margin-right: 40px;
   background-color: linear-gradient(to bottom right, #f04a5e, #f78f6a);
+  margin-bottom: -50px;
+  color: linear-gradient(to left, red, blue);
 }
 
 .lienmenu {
@@ -46,6 +52,81 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-/*# sourceMappingURL=menus.css.map */
+.t-menu1 {
+  font-family: "Manus";
+  font-size: 3em;
+  color: black;
+}
+
+.st-menu1 {
+  font-family: "Segoe Print";
+  margin-top: -50px;
+  font-size: 5em;
+  color: black;
+}
+
+.t-menu2 {
+  font-family: "Caffe Poster";
+  font-size: 3em;
+}
+
+.st-menu2 {
+  font-family: "Walbaum";
+  font-size: 5em;
+  margin-top: -20px;
+  color: #c77412;
+}
+
+.t-menu3 {
+  font-family: "Kamila";
+  font-size: 3em;
+}
+
+.st-menu3 {
+  font-family: "Segoe Print";
+  margin-top: -50px;
+  font-size: 5em;
+  color: #0887fb;
+}
+
+.t-menu4 {
+  font-family: "Breesh Light";
+  font-size: 3em;
+}
+
+.st-menu4 {
+  font-family: "Segoe Print";
+  margin-top: -20px;
+  font-size: 5em;
+  color: #72bf56;
+}
+
+@font-face {
+  font-family: "Caffe Poster";
+  src: url("../../media/fonts/CaffePoster.ttf");
+}
+@font-face {
+  font-family: "Kamila";
+  src: url("../../media/fonts/Kamila.otf");
+}
+@font-face {
+  font-family: "Breesh Light";
+  src: url("../../media/fonts/Breesh-Light.ttf");
+}
+@font-face {
+  font-family: "Manus";
+  src: url("../../media/fonts/Manus.ttf");
+}
+@font-face {
+  font-family: "Segoe Print";
+  src: url("../../media/fonts/SegoePrint.ttf");
+}
+@font-face {
+  font-family: "Walbaum";
+  src: url("../../media/fonts/Walbaum.ttf");
+}
+
+/*# sourceMappingURL=menus.scss.map */

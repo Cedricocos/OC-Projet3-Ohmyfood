@@ -1,1 +1,0 @@
-sass SCSS/footer.scss CSS/footer.css
