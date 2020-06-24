@@ -13,14 +13,14 @@
 .menu1
 {
 	background-color: #fcdfdb;
-	margin-bottom: 150px;
+	margin-bottom: 5%;
 	margin-left: 80px;
 }
 
 .menu2
 {
 	background-color: #fff5fe;
-	margin-bottom: 150px;
+	margin-bottom: 5%;
 	margin-right: 80px;
 }
 
@@ -62,7 +62,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	
+	transition: all 1s ease;
 }
 
 .t-menu1
@@ -156,4 +156,9 @@
 {
 	font-family: "Walbaum";
 	src: url("../../media/fonts/Walbaum.ttf");
+}
+
+.lienmenu:hover
+{
+	font-size: 120%;
 }

@@ -32,44 +32,4 @@ body {
   font-weight: bold;
 }
 
-.menu1 {
-  width: 1000px;
-  height: 1500px;
-  background-color: #fcdfdb;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.menu2 {
-  width: 1000px;
-  height: 1500px;
-  background-color: #fff5fe;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.menu3 {
-  width: 1000px;
-  height: 1500px;
-  background-color: #edefef;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.menu4 {
-  width: 1000px;
-  height: 1500px;
-  background-color: #fdfffd;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
 /*# sourceMappingURL=style.scss.map */
