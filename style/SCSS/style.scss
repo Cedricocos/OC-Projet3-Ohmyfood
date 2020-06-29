@@ -16,8 +16,27 @@ body
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	margin: 80px auto 120px auto;
+}
+
+.tsoon
+{
+	margin-left: 45px;
+}
+
+.soon:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  animation: points steps(4,end) 1500ms infinite;
+  content: "...";
+  width: 0px;
+}
+
+@keyframes points {
+  to {
+    width: 40px;    
+  }
 }
 
 .t-mentions

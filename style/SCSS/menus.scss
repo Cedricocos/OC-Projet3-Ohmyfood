@@ -48,9 +48,10 @@
 	font-size: 6em;
 	margin-left: 40px;
 	margin-right: 40px;
-	background-color: linear-gradient(to bottom right, #f04a5e, #f78f6a);
 	margin-bottom: -50px;
-	color: linear-gradient( to left, red, blue);;
+	background: -webkit-linear-gradient(left, #f04a5e, #f78f6a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
 }
 
 .lienmenu
@@ -63,6 +64,7 @@
 	align-items: center;
 	flex-direction: column;
 	transition: all 1s ease;
+	opacity: 0.6;
 }
 
 .t-menu1
@@ -84,6 +86,9 @@
 {
 	font-family: "Caffe Poster";
 	font-size: 3em;
+	background: -webkit-linear-gradient(left, #d8852e, #905bfd);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .st-menu2
@@ -98,6 +103,9 @@
 {
 	font-family: "Kamila";	
 	font-size: 3em;
+	background: -webkit-linear-gradient(left, #0431df, #0887fb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .st-menu3
@@ -112,6 +120,9 @@
 {
 	font-family: "Breesh Light";	
 	font-size: 3em;
+	background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .st-menu4
@@ -161,4 +172,5 @@
 .lienmenu:hover
 {
 	font-size: 120%;
+	opacity: 1;
 }
