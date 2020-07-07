@@ -3,7 +3,7 @@ body {
 }
 
 .menu1 {
-  width: 1000px;
+  width: 1100px;
   height: 1500px;
   background-color: #fcdfdb;
   margin-right: auto;
@@ -24,6 +24,78 @@ body {
   margin-top: 50px;
   margin-bottom: -30px;
   font-size: 2em;
+}
+
+.fas {
+  background: -webkit-linear-gradient(left, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5em;
+}
+
+.fas2 {
+  font-size: 3em;
+}
+
+.titre {
+  font-family: "Manus";
+  font-size: 4em;
+  margin-bottom: -30px;
+  margin-top: -10px;
+}
+
+.plat {
+  font-family: "Comic sans MS";
+  font-size: 1.5em;
+}
+
+.prix {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: right;
+}
+
+.menu {
+  width: 85%;
+  line-height: 50px;
+}
+
+.titrebas {
+  color: black;
+  font-family: "Manus";
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 3em;
+}
+
+@font-face {
+  font-family: "Manus";
+  src: url("../../media/fonts/Manus.ttf");
+}
+.soustitre {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  font-family: "Comic sans MS";
+  font-size: 2em;
+}
+
+.soustitre:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.soustitre:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 10;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: black;
+  transition: width 1s ease 0s, left 0.5s ease 0s;
+  width: 0;
 }
 
 /*# sourceMappingURL=menu1.scss.map */

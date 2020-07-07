@@ -26,4 +26,63 @@ body {
   font-size: 2em;
 }
 
+.titre {
+  font-family: "Breesh Light";
+  font-size: 5em;
+  margin-top: -80px;
+  background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+  width: 80%;
+  line-height: 70px;
+  margin-bottom: 50px;
+  font-family: "Segoe Print";
+}
+
+.soustitre {
+  font-family: "Segoe Print";
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+.soustitre:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.soustitre:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 10;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: black;
+  transition: width 1s ease 0s, left 0.5s ease 0s;
+  width: 0;
+}
+
+.plat {
+  font-size: 1.1em;
+}
+
+.prix {
+  font-size: 1.5em;
+  text-align: right;
+}
+
+@font-face {
+  font-family: "Segoe Print";
+  src: url("../../media/fonts/SegoePrint.ttf");
+}
+@font-face {
+  font-family: "Breesh Light";
+  src: url("../../media/fonts/Breesh-Light.ttf");
+}
+
 /*# sourceMappingURL=menu4.scss.map */
