@@ -35,6 +35,35 @@ body {
   margin-top: -100px;
 }
 
+.traits1 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #0228dd;
+}
+
+.traits2 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #0670f3;
+}
+
+.traits3 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #229df9;
+}
+
+.traittitre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 85%;
+}
+
 .menu {
   width: 75%;
   line-height: 70px;

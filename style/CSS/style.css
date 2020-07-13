@@ -52,7 +52,7 @@ body {
 .article {
   font-weight: bold;
   margin-top: 50px;
-  font-family: 1.2em;
+  font-size: 1.2em;
   line-height: 30px;
 }
 
@@ -63,6 +63,12 @@ body {
 @media only screen and (max-width: 850px) {
   .t-mentions {
     width: 95%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .soon {
+    width: 60%;
+    font-size: 200%;
   }
 }
 

@@ -26,6 +26,35 @@ body {
   font-size: 2em;
 }
 
+.traits1 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #c67412;
+}
+
+.traits2 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #a56799;
+}
+
+.traits3 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #6e4ccc;
+}
+
+.traittitre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 85%;
+}
+
 .titre {
   font-family: "Caffe Poster";
   font-size: 5em;

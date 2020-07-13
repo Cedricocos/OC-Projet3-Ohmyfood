@@ -26,6 +26,28 @@ body {
   font-size: 2em;
 }
 
+.traits1 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background: linear-gradient(to right, #41963c, #bff88b);
+}
+
+.traits2 {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background: linear-gradient(to left, #41963c, #bff88b);
+}
+
+.traittitre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 85%;
+}
+
 .titre {
   font-family: "Breesh Light";
   font-size: 5em;

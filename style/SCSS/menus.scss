@@ -60,7 +60,6 @@
 	align-items: center;
 	flex-direction: column;
 	transition: all 1s ease;
-	opacity: 0.6;
 }
 
 .t-menu1
@@ -168,7 +167,7 @@
 .lienmenu:hover
 {
 	font-size: 120%;
-	opacity: 1;
+	opacity: 0.8;
 }
 
 
@@ -197,7 +196,6 @@
 	.lienmenu
 	{
 		transition: none;
-		opacity: 1;
 		margin-top: 30px;
 	}
 
@@ -212,46 +210,57 @@
 
 	.t-menu1
 	{
-		font-size: 300%;
+		font-size: 2em;
 	}
 
 	.st-menu1
 	{
-		font-size: 500%;
+		font-size: 3em;
 	}
 
 	.t-menu2
 	{
-		font-size: 300%;
+		font-size: 2em;
+		margin-top: -10px;
 	}
 
 	.st-menu2
 	{
-		font-size: 500%;
+		font-size: 3em;
 	}
 
 	.t-menu3
 	{
-		font-size: 300%;
+		font-size: 2em;
 	}
 
 	.st-menu3
 	{
-		font-size: 500%;
+		font-size: 3em;
 	}
 
 	.t-menu4
 	{	
-		font-size: 300%;
+		font-size: 2em;
+		margin-top: -10px;
 	}
 
 	.st-menu4
 	{
-		font-size: 500%;
+		font-size: 3em;
+		margin-top: -50px;
 	}
 
+	.menu-dim
+	{
+		width: 80%;
+		height: 200px;
+	}
 
-
-
+	.fa-music
+	{
+		font-size: 3em;
+		margin-bottom: -40px;
+	}
 
 }
