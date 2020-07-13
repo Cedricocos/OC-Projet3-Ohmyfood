@@ -93,5 +93,28 @@ body
 	{
 	}
 
+	@keyframes points {
+	  to {
+	    width: 30px;    
+	  }
+	}
+}
 
+@media only screen and (max-width: 400px){
+
+	.soon
+	{
+		width: 60%;
+		font-size: 100%;
+	}
+
+	.tsoon
+	{
+	}
+
+	@keyframes points {
+	  to {
+	    width: 20px;    
+	  }
+	}
 }

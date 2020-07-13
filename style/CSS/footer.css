@@ -56,4 +56,10 @@ a.wiggle:hover {
   animation: none;
 }
 
+@media only screen and (max-width: 400px) {
+  .footer {
+    font-size: 0.8em;
+  }
+}
+
 /*# sourceMappingURL=footer.scss.map */
