@@ -126,3 +126,44 @@ body
   transition: width 1s ease 0s, left 0.5s ease 0s;
   width: 0;
 }
+
+@media only screen and (max-width: 1150px){
+
+	.menu1
+	{
+		height: 150%;
+		width: 90%;
+	}
+
+	.soustitre
+	{  
+	  	font-size: 1.5em;
+	} 
+
+	.titre
+	{
+		font-size: 3em;
+	}
+
+	.plat
+	{
+		font-size: 1em;
+	}
+
+	.prix
+	{
+		font-size: 1em;
+	}
+
+	.traits
+	{
+		height: 4px;
+		width: 30%;
+	}
+
+	.menu
+	{
+		line-height: 30px;
+	}
+
+}
