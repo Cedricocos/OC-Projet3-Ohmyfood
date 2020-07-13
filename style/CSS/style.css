@@ -71,15 +71,25 @@ body {
     font-size: 200%;
   }
 
+  .tsoon {
+    margin-left: 16%;
+  }
+
   @keyframes points {
     to {
       width: 30px;
     }
   }
 }
+@media only screen and (max-width: 555px) {
+  .tsoon {
+    margin-left: 5%;
+  }
+}
 @media only screen and (max-width: 400px) {
   .soon {
     width: 60%;
+    height: 30px;
     font-size: 100%;
   }
 

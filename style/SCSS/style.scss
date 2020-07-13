@@ -91,6 +91,7 @@ body
 
 	.tsoon
 	{
+		margin-left: 16%;
 	}
 
 	@keyframes points {
@@ -100,16 +101,22 @@ body
 	}
 }
 
+@media only screen and (max-width: 555px){
+
+	.tsoon
+	{
+		margin-left: 5%;
+	}
+
+}
+
 @media only screen and (max-width: 400px){
 
 	.soon
 	{
 		width: 60%;
+		height: 30px;
 		font-size: 100%;
-	}
-
-	.tsoon
-	{
 	}
 
 	@keyframes points {
