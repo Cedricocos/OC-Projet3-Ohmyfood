@@ -216,37 +216,37 @@
 }
 @media only screen and (max-width: 400px) {
   .t-menu1 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .st-menu1 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   .t-menu2 {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-top: 0px;
   }
 
   .st-menu2 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   .t-menu3 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .st-menu3 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   .t-menu4 {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-top: 0px;
   }
 
   .st-menu4 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-top: 0px;
   }
 
@@ -256,7 +256,7 @@
   }
 
   .fa-music {
-    font-size: 1.8em;
+    font-size: 1em;
     margin-bottom: -40px;
   }
 

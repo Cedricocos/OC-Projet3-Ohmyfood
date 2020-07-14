@@ -114,6 +114,8 @@ body {
 
   .soustitre {
     font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
 
   .titre {
@@ -135,6 +137,71 @@ body {
 
   .menu {
     line-height: 30px;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .soustitre {
+    font-size: 1em;
+  }
+
+  .titre {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .plat {
+    font-size: 0.8em;
+  }
+
+  .prix {
+    font-size: 0.8em;
+  }
+
+  .menu {
+    line-height: 20px;
+  }
+
+  .titrebas {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .soustitre {
+    font-size: 0.8em;
+  }
+
+  .titre {
+    font-size: 1em;
+    margin-bottom: 0px;
+  }
+
+  .plat {
+    font-size: 0.6em;
+  }
+
+  .prix {
+    font-size: 0.6em;
+  }
+
+  .traits1 {
+    height: 3px;
+  }
+
+  .traits2 {
+    height: 3px;
+  }
+
+  .titrebas {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .menu {
+    line-height: 10px;
   }
 }
 
