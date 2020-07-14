@@ -217,7 +217,8 @@
 @media only screen and (max-width: 400px) {
   .t-menu1 {
     font-size: 1.2em;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .st-menu1 {
@@ -237,6 +238,7 @@
 
   .t-menu3 {
     font-size: 1.2em;
+    margin-bottom: 35px;
   }
 
   .st-menu3 {
@@ -246,8 +248,8 @@
 
   .t-menu4 {
     font-size: 1.2em;
-    margin-top: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 35px;
   }
 
   .st-menu4 {

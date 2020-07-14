@@ -243,5 +243,37 @@ body {
     font-size: 0.8em;
   }
 }
+@media only screen and (max-width: 400px) {
+  .menu2 {
+    height: 350px;
+  }
+
+  .soustitre {
+    font-size: 0.5em;
+  }
+
+  .plat {
+    font-size: 0.4em;
+  }
+
+  .prix {
+    font-size: 0.4em;
+  }
+
+  .traits1 {
+    height: 2px;
+    width: 25%;
+  }
+
+  .traits2 {
+    height: 2px;
+    width: 25%;
+  }
+
+  .traits3 {
+    height: 2px;
+    width: 25%;
+  }
+}
 
 /*# sourceMappingURL=menu2.scss.map */
