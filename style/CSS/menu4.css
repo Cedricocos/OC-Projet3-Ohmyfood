@@ -120,6 +120,7 @@ body {
 
   .titre {
     font-size: 3em;
+    margin-top: 50px;
   }
 
   .plat {
@@ -137,6 +138,28 @@ body {
 
   .menu {
     line-height: 30px;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .soustitre {
+    font-size: 1em;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .plat {
+    font-size: 0.8em;
+  }
+
+  .traits1 {
+    height: 3px;
+    width: 25%;
+  }
+
+  .traits2 {
+    height: 3px;
+    width: 25%;
   }
 }
 @media only screen and (max-width: 730px) {
@@ -168,6 +191,10 @@ body {
   }
 }
 @media only screen and (max-width: 600px) {
+  .menu4 {
+    height: 500px;
+  }
+
   .soustitre {
     font-size: 0.8em;
   }
@@ -175,22 +202,23 @@ body {
   .titre {
     font-size: 1em;
     margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .titremenu {
+    font-size: 1em;
   }
 
   .plat {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 
   .prix {
     font-size: 0.6em;
   }
 
-  .traits1 {
-    height: 3px;
-  }
-
-  .traits2 {
-    height: 3px;
+  .traittitre {
+    height: 70px;
   }
 
   .titrebas {
@@ -198,10 +226,10 @@ body {
     margin-left: 0px;
     font-size: 1em;
   }
-}
-@media only screen and (max-width: 600px) {
+
   .menu {
     line-height: 10px;
+    margin-bottom: 0px;
   }
 }
 

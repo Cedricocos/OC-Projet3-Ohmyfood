@@ -191,6 +191,10 @@ body {
     margin-bottom: 0px;
   }
 
+  .titremenu {
+    font-size: 1em;
+  }
+
   .plat {
     font-size: 0.6em;
   }
@@ -219,9 +223,21 @@ body {
     font-size: 1em;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .menu {
     line-height: 10px;
+  }
+
+  .plat {
+    font-size: 0.5em;
+  }
+
+  .prix {
+    font-size: 0.5em;
+  }
+
+  .soustitre {
+    font-size: 0.6em;
   }
 }
 

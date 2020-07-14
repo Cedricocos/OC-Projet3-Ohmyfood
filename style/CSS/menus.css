@@ -216,38 +216,43 @@
 }
 @media only screen and (max-width: 400px) {
   .t-menu1 {
-    font-size: 1em;
+    font-size: 1.2em;
+    margin-top: 20px;
   }
 
   .st-menu1 {
     font-size: 2em;
+    margin-bottom: 0px;
   }
 
   .t-menu2 {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 0px;
   }
 
   .st-menu2 {
     font-size: 2em;
+    margin-bottom: 0px;
   }
 
   .t-menu3 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .st-menu3 {
     font-size: 2em;
+    margin-bottom: 0px;
   }
 
   .t-menu4 {
-    font-size: 1em;
+    font-size: 1.2em;
+    margin-top: 20px;
     margin-top: 0px;
   }
 
   .st-menu4 {
     font-size: 2em;
-    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .menu-dim {
