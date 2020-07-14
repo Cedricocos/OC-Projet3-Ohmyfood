@@ -206,7 +206,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .soustitre {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   .titre {
@@ -254,10 +254,15 @@ body {
 @media only screen and (max-width: 400px) {
   .menu {
     line-height: 10px;
+    margin-bottom: 0px;
   }
 
   .menu3 {
     height: 350px;
+  }
+
+  .titre {
+    margin-top: 0px;
   }
 
   .soustitre {
